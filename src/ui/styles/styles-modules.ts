@@ -62,6 +62,8 @@ export const CardBackground = styled.div<StyledProps>`
   gap: 1rem;
   border-radius: 10px;
   justify-content: center;
+  max-height: 70vh;
+  overflow-y: auto;
   align-items: center;
   padding: 1rem;
   background-color: #fff;
