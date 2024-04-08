@@ -18,6 +18,8 @@ const ModalContainer = styled.div`
   background-color: #fff;
   padding: 1rem 2rem;
   border-radius: 10px;
+  max-height: 90vh;
+  overflow-y: auto;
 `;
 
 const ModalHeader = styled.div`
