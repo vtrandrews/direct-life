@@ -59,7 +59,7 @@ export const FormInputs = (props: Props) => {
 
   return (
     <>
-      <BoxFormContent gridTemplateColumns="1fr 1fr">
+      <BoxFormContent gridTemplateColumns="1fr 1fr 1fr 1fr">
         <Input label="Nome" name="nome" required placeholder="Digite o nome" />
         <Input
           label="Sobrenome"
@@ -67,8 +67,6 @@ export const FormInputs = (props: Props) => {
           required
           placeholder="Digite o sobrenome"
         />
-      </BoxFormContent>
-      <BoxFormContent gridTemplateColumns="1fr 1fr 1fr">
         <Input
           label="Data de Nascimento"
           name="dataNascimento"
@@ -82,6 +80,8 @@ export const FormInputs = (props: Props) => {
           placeholder="Ex.: 000.000.000-00"
           mask="999.999.999-99"
         />
+      </BoxFormContent>
+      <BoxFormContent gridTemplateColumns="1fr 1fr 1fr 1fr">
         <Input
           label="Telefone de Contato"
           name="telefoneContato"
@@ -89,16 +89,12 @@ export const FormInputs = (props: Props) => {
           placeholder="Ex.: (00) 00000-0000"
           mask="(99) 99999-9999"
         />
-      </BoxFormContent>
-      <BoxFormContent>
         <Input
           label="E-mail"
           name="email"
           required
           placeholder="Digite o e-mail"
         />
-      </BoxFormContent>
-      <BoxFormContent gridTemplateColumns="1fr 1fr 1fr">
         <Input
           label="Peso"
           name="peso"
@@ -113,6 +109,8 @@ export const FormInputs = (props: Props) => {
           placeholder="Ex.: 1.65cm"
           mask="9.99"
         />
+      </BoxFormContent>
+      <BoxFormContent gridTemplateColumns="1fr 1fr 1fr 1fr">
         <Input
           label="CEP"
           name="cep"
