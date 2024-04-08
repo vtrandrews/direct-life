@@ -4,7 +4,7 @@ export const HomePage = () => {
   return (
     <Content>
       <DirectLifeBanner>
-        <img src="https://i.imgur.com/LMsxr8e.png" />
+        <img src="https://i.imgur.com/LMsxr8e.png" alt="logo" />
       </DirectLifeBanner>
     </Content>
   );
